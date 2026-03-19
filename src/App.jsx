@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
-
+import NavBar from './components/navBar'
 function App() {
   return (
     <div>
-      <h1>TEST</h1>
-      <p>yes this is a test wow</p>
+      <NavBar />
+      <Outlet />
     </div>
+
   )
 }
 
