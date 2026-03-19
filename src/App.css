@@ -63,7 +63,9 @@ h2 {
 }
 
 .reddit-content {
-  display: flex
+  display: flex;
+  height: 100vh; 
+  width: 100vw;
 }
 
 .subreddit-list {
