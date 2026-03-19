@@ -2,9 +2,8 @@
 import './App.css'
 
 function App() {
-
-  return (
-    <>
+  return ( 
+    <div>
       <nav>
         <ul>
           <li>RedPatch</li>
@@ -13,8 +12,8 @@ function App() {
         </ul>
       </nav>
       <Outlet />
-    </>
-  )
+      </div>
+      )
 }
 
 export default App
