@@ -2,11 +2,16 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import './App.css'
 import NavBar from './components/navBar'
+import SubList from './components/SubList'
 function App() {
   return (
     <div>
       <NavBar />
-      <Outlet />
+      <div className='reddit-content'>
+        <SubList />
+        <Outlet />
+      </div>
+      
     </div>
 
   )
