@@ -5,8 +5,9 @@ const SubList = () => {
     <div className='subreddit-list-box'>
       <ul>
         <li className='subreddit-title'>Categories:</li>
-        <li>Placeholder</li>
-        <li>Placeholder</li>
+        <li>Popular</li>
+        <li>News</li>
+        <br></br>
         <li>Placeholder</li>
         <li>Placeholder</li>
         <li>Placeholder</li>
