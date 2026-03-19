@@ -2,18 +2,12 @@ import React from 'react'
 import './App.css'
 
 function App() {
-  return ( 
+  return (
     <div>
-      <nav>
-        <ul>
-          <li>RedPatch</li>
-          <li><button>Search</button></li>
-          <li>About</li>
-        </ul>
-      </nav>
-      <Outlet />
-      </div>
-      )
+      <h1>TEST</h1>
+      <p>yes this is a test wow</p>
+    </div>
+  )
 }
 
 export default App
