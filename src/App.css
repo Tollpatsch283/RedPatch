@@ -68,10 +68,14 @@ h2 {
   width: 100vw;
 }
 
-.subreddit-list {
+.subreddit-list-box {
   width: 20%;
 }
 
-.subreddit-list ul li {
+.subreddit-list-box ul li {
   list-style: none;
+}
+.subreddit-title {
+  font: bold;
+  color: black;
 }
