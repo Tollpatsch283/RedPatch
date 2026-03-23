@@ -44,8 +44,9 @@ nav a {
   text-decoration: none;
 }
 
-nav a.active {
+nav ul li:hover {
   font-weight: bold;
+  background-color: #891fc2;
 }
 
 h1 {
