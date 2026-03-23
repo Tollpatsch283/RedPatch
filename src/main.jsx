@@ -11,6 +11,7 @@ import SubredditPage from './pages/SubredditPage'
 import PostPage from './pages/PostPage.jsx'
 import SearchPage from './pages/SearchPage.jsx'
 import NotFoundPage from './pages/NotFoundPage.jsx'
+import AboutPage from './pages/AboutPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path="/" element={<App />}>
             <Route index element={<HomePage />} />
+            <Route path="about" element={<AboutPage />} />
             <Route path="r/:subredditName" element={<SubredditPage />} />
             <Route path="post/:postId" element={<PostPage />} />
             <Route path="search" element={<SearchPage />} />
