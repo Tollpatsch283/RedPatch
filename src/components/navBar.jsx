@@ -4,8 +4,8 @@ const NavBar = () => {
  return (
   <nav>
     <ul>
-        <li>RedPatch</li>
-        <li>Search</li>
+        <li><Link to="/">RedPatch</Link></li>
+        <li><Link to="search">Search</Link></li>
         <li><Link to="about">About</Link></li>
     </ul>
   </nav>
