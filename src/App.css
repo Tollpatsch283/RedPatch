@@ -36,6 +36,7 @@ nav ul li {
   margin-bottom: 0 !important;
   color: white;
   list-style: none;
+  padding: 10px;
 }
 
 nav a {
