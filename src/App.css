@@ -84,4 +84,6 @@ h2 {
 
 .outlet {
   width: 80%;
+  text-align: left;
+  padding: 15px;
 }
