@@ -18,7 +18,8 @@ const postsSlice = createSlice({
   initialState: {
     posts: [],
     status: 'idle', // 'loading' | 'succeeded' | 'failed'
-    error: null
+    error: null,
+    currentSubreddit: 'popular'
   },
   reducers: {},
   extraReducers: (builder) => {
