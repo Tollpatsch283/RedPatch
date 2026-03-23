@@ -1,6 +1,6 @@
 function HomePage() {
   return (
-    <div>
+    <div className="homepage outlet">
       <h1>Home</h1>
       <p>Welcome to your Reddit client</p>
     </div>

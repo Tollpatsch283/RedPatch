@@ -1,6 +1,6 @@
 function SubredditPage() {
   return (
-    <div>
+    <div className="notFound outlet">
       <h1>404</h1>
       <p>Path not found</p>
     </div>
