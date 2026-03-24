@@ -16,39 +16,6 @@ body {
 div {
   border: 1px black solid;
 }
-nav {
-  background: #b736ff;
-  display: flex;
-  padding: 24px 36px;
-  width: 100%;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-nav ul li {
-  margin-bottom: 0 !important;
-  color: white;
-  list-style: none;
-  padding: 10px;
-}
-
-nav a {
-  color: white;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-nav ul li:hover {
-  font-weight: bold;
-  background-color: #891fc2;
-}
 
 h1 {
   font-weight: bold;

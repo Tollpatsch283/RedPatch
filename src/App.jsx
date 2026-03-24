@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import './App.css'
-import NavBar from './components/navBar'
+import NavBar from './components/navBar/navBar'
 import SubList from './components/SubList'
 function App() {
   return (
