@@ -4,12 +4,15 @@ export const fetchPosts = createAsyncThunk(
   'posts/fetchPosts',
   async (subreddit = 'popular') => {
     const response = await fetch(
-      `https://www.reddit.com/r/${subreddit}.json`
+      `https://www.reddit.com/r/${subreddit}/.json`
     )
 
-    const data = await response.json()
+    if (!response.ok) {
+      throw new Error('Failed to fetch posts')
+    }
 
-    return data.data.children.map(post => post.data)
+    const data = await response.json()
+    return data.data.children.map((post) => post.data)
   }
 )
 
